@@ -16,8 +16,10 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
+    font-family: sans-serif;
+    padding: 5px;
 }
-.postheader h5 {
+.postheader h4 {
     width: 380px; /*es el estilo para dejar el espacio entre el titulo y los tres puntitos. No creo que sea una buena practica me gustaria que me dieran alguna pista. Intente con space-betwen pero no daba el resultado que queria.*/
 }
 .contenedor img{
@@ -29,17 +31,21 @@ body{
 
 }
 .iconos{
-    padding: 10px;
+    padding: 15px;
 }
 .iconos :nth-child(4){
     float: right;
-    box-sizing: border-box;
+    
 }
 
 .texto1, .texto2 {
+    width: 100%;
     padding: 10px;
     font-family: sans-serif;
+    justify-content: center;
+    font-size: small; /*tuve desencuantros a la hora de encontrar el tamaño de la letra para que se viera igual*/
+    
 }
-/*por favor les agradeceria en el alma que me corrigieran las buenas practicas que deberia hacer mejor.*/
+
+/*por favor les agradeceria en el alma que me dijeran las buenas practicas que deberia hacer mejor.*/
 /*El resultado es bastante parecido, pero me gustaria recibir consejos en cuanto a la esctructuracion del html o mas cosas que ahora no veo por mi inexperiencia. Gracias!!!*/
-/*PD: aprovecho para decir que un no me manejo con el position absolute, relative, pero todo sera probando. Igual y eso es lo que me falto aplicar en los puntitos*/
